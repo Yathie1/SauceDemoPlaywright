@@ -1,0 +1,20 @@
+{
+  "name": "saucedemo-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.2",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.1",
+    "allure-playwright": "^3.11.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
