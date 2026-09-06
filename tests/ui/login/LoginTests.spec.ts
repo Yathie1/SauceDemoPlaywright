@@ -26,7 +26,7 @@ test('Login and Logout Test', async ({ page }) => {
 
 test('Login with invalid credentials', async ({ page }) => {
     const loginPage = new LoginPage(page);
-    await page.goto('https://www.saucedemo.com/');
+    await page.goto(ENV.BASE_URL);
     await loginPage.login('invalid_user', 'invalid_password');
     expect(await loginPage.errorMessage.isVisible()).toBe(true);        
 
